@@ -190,8 +190,8 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #c34257;
 }
 #works,#about,#services,#pricing{
-	padding-top: 80px;
-}
+/*	padding-top: 80px;
+*/}
 .services h2, .pricing h2{
 	font-weight:700;
 	text-transform: uppercase;

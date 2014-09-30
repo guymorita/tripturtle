@@ -6,11 +6,13 @@
         url: 'https://us9.api.mailchimp.com/2.0/lists/subscribe',
         data: {
           email: {
-            email: 'guymorita@gmail.com',
-            email: 'garlee@gmail.com'
+            email: $('form input-email').val()
           },
           apikey: '4fe42013c37fdc6606e3069d080cacc5-us9',
-          id: 'bca808313d'
+          id: 'bca808313d',
+          merge_vars: {
+            address: $('form input-destination').val()
+          }
         },
         cache       : false,
         crossDomain: true,
@@ -26,7 +28,7 @@
         }
     });
   }
-  $('form').click(function(e){
+  $('form submit').click(function(e){
     e.preventDefault();
     register();
   });
