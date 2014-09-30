@@ -1,30 +1,30 @@
 @charset "utf-8";
 
 /* ============================== */
-/* 
+/*
 	- Title: Folkin
 	- Autor: Imaginacionweb
 	- Email: jmartinez@imaginacionweb.net
 	- Version: 1.0
 */
-/* ============================== */	
+/* ============================== */
 
-/* ---------------------- 
+/* ----------------------
 	Stylesheet Guide
 -------------------------
 
 01. Import styles
 	-  bootstrap.css  - include resetes ( Media querys, grid-responsive,layout).
-	-  bootstrap-responsive.css	
+	-  bootstrap-responsive.css
 	-  default.css  - Default color skin
 	-  flexslider.css  - Carousel (comments)
 	-  animate.css  - Animations in css3
 	-  font-awesome.min.css  - Icons
 	-  responsiveslides -- Slide
-	-  Google Fonts  - Open sans	
-	
+	-  Google Fonts  - Open sans
+
 02. Basic Elements
-	-  Standar Styles	
+	-  Standar Styles
 	-  Class and styles Generals
 	-  Border
 	-  Border Right
@@ -43,9 +43,9 @@
 	-  About
 	-  Contact
 	-  Footer
-	-  Pricing Table		
-	-  toTop	
-	
+	-  Pricing Table
+	-  toTop
+
 0.4.	Layout 1920px version
 
 0.5.	Layout for 1440px Version
@@ -95,7 +95,7 @@
 
 /* Standar Styles --------------------------------------------------------*/
 body{
-	font-size: 14px;	
+	font-size: 14px;
 	line-height:24px;
 	background-color: #fff;
 	color: #6e7982;
@@ -105,7 +105,7 @@ a{
 	color: #6e7982;
 }
 a:hover{
-	text-decoration: none;	
+	text-decoration: none;
 }
 p{
 	font-size: 14px;
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Class and styles General ----------------------------*/
 .clearfix{
 	width:1px;
-	height:1px;	
+	height:1px;
 	display:block;
 	clear:both;
 	content:" , ";
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 22px;
 	text-transform: uppercase;
 }
-.botton{	
+.botton{
 	width: auto;
 	border: 0;
 	color: #fff;
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight:700;
 	text-transform: uppercase;
 	font-size: 32px;
-	line-height: 42px;	
+	line-height: 42px;
 	padding: 55px 0 20px 0;
 }
 /* Social ----------------------------*/
@@ -257,7 +257,7 @@ nav #menu li a{
 	font-size: 16px;
 	list-style: none;
 }
-.is-sticky #menu{	
+.is-sticky #menu{
 	padding: 14px 0 0px 0;
 }
 .sticky-wrapper{
@@ -286,7 +286,7 @@ nav #menu li a{
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: 35px;
-	line-height: 45px;	
+	line-height: 45px;
 	padding-top: 4%;
 	color: #fff;
 }
@@ -300,7 +300,7 @@ nav #menu li a{
 	font-size: 170px;
 	color: #fff;
 }
-.carousel-inner .item img{	
+.carousel-inner .item img{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -312,7 +312,7 @@ nav #menu li a{
 	text-align: center;
 	padding-bottom: 40px;
 }
-.services h3{ 
+.services h3{
 	text-transform: uppercase;
 	font-weight:600;
 }
@@ -325,7 +325,7 @@ nav #menu li a{
 }
 /*  Portfolio -----------------------------------------*/
 .portfolio{
-	text-align: center;	
+	text-align: center;
 }
 .title_portfolio{
 	padding: 50px 0;
@@ -340,7 +340,7 @@ nav #menu li a{
 	bottom: -19px;
 	z-index: 1;
 }
-.portfolio .image_portfolio{	
+.portfolio .image_portfolio{
 	position: relative;
 	width: 100%;
 	-webkit-background-size: cover;
@@ -397,7 +397,7 @@ nav #menu li a{
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 34px;
-	line-height: 44px;		
+	line-height: 44px;
 }
 .portfolio .info .category{
 	font-size: 18px;
@@ -422,7 +422,7 @@ nav #menu li a{
 	padding: 80px 0;
 }
 .more_portfolio h3{
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	font-weight:600;
 }
 .more_portfolio ul{
@@ -467,7 +467,7 @@ nav #menu li a{
 }
 .about{
 	text-align: center;
-	padding: 55px 0; 
+	padding: 55px 0;
 }
 .about h3{
 	text-transform: uppercase;
@@ -488,7 +488,7 @@ nav #menu li a{
 	padding-top: 30%;
 }
 .img_preview .social li a{
-    color: #fff; 
+    color: #fff;
     font-size: 45px;
 }
 /*  Contact -----------------------------------------*/
@@ -598,10 +598,10 @@ footer .social li a{
 	-moz-transition: 0.3s all ease;
 	-o-transition: 0.3s all ease;
 	-ms-transition: 0.3s all ease;
-	transition: 0.3s all ease;	
+	transition: 0.3s all ease;
 	border-radius: 15px;
 	padding-bottom: 25px;
-	border: solid 1px #b6bdc1; 
+	border: solid 1px #b6bdc1;
 }
 .item_table:hover {
 	margin-top: -5px;
@@ -616,14 +616,14 @@ footer .social li a{
 	padding: 10px;
 }
 .head_table{
-	color: #fff;	
+	color: #fff;
 	background-color: #2C3F52;
 	text-align: center;
 }
 .head_title{
 	background-color:#2C3F52;
 	border-bottom: 1px solid #404b62;
-	padding: 10px 0; 
+	padding: 10px 0;
 }
 .head_title span{
 	font-style: italic;
@@ -699,24 +699,24 @@ footer .social li a{
 	overflow:hidden;
 	float:left;
 	opacity: 0;
-	-moz-opacity: 0;	
+	-moz-opacity: 0;
 }
 #toTop:active, #toTop:focus {
 	outline:none;
 }
 /* ---------------------------------------------------------------------- */
 /*	1920 Version
-/* ---------------------------------------------------------------------- */ 
+/* ---------------------------------------------------------------------- */
 @media handheld, only screen and (max-width: 1920px) {
 	.portfolio .about_portfolio{
 		top: 30%;
 		left: 40%;
 	}
-	
+
 }
 /* ---------------------------------------------------------------------- */
 /*	1440 Version
-/* ---------------------------------------------------------------------- */ 
+/* ---------------------------------------------------------------------- */
 @media handheld, only screen and (max-width: 1440px) {
 	.portfolio .about_portfolio{
 		top: 30%;
@@ -740,7 +740,7 @@ footer .social li a{
 	}
 	.get_mobile .botton{
 		padding: 12px 15px;
-	} 
+	}
 	.get_mobile a{
 		margin-left: 0px;
 	}
@@ -806,7 +806,7 @@ footer .social li a{
 	}
 	.flexslider {
 		margin: 0 0 15px 0;
-	}	
+	}
 	.carrousel h1 {
 		margin-top:0;
 		margin-left: 3%;
@@ -846,7 +846,7 @@ footer .social li a{
 /* ---------------------------------------------------------------------- */
 /*	685px Version
 /* ---------------------------------------------------------------------- */
-@media handheld, only screen and (max-width: 685px) {	
+@media handheld, only screen and (max-width: 685px) {
 	#works,#about,#services{
 		padding-top: 100px;
 	}
@@ -887,9 +887,9 @@ footer .social li a{
 	}
 	.portfolio .info h2{
 		font-size: 30px;
-		line-height: 40px;		
+		line-height: 40px;
 	}
-	
+
 }
 /* ---------------------------------------------------------------------- */
 /*	568px Version
@@ -916,7 +916,7 @@ footer .social li a{
 		padding: 20px;
 	}
 
-	
+
 }
 
 /* ---------------------------------------------------------------------- */
@@ -927,7 +927,7 @@ footer .social li a{
 @media handheld, only screen and (max-width: 480px) {
 	.item_table{
 		max-width: 300px;
-	}	
+	}
 	.title{
 		padding: 20px;
 	}
@@ -948,7 +948,7 @@ footer .social li a{
 		padding: 10px 15px;
 		font-size: 14px;
 	}
-	
+
 }
 
 /* ---------------------------------------------------------------------- */
@@ -956,7 +956,7 @@ footer .social li a{
 /* ---------------------------------------------------------------------- */
 
 
-@media handheld, only screen and (max-width: 380px) {	
+@media handheld, only screen and (max-width: 380px) {
 	.top{
 		margin-top: 20px;
 	}
@@ -975,7 +975,7 @@ footer .social li a{
 		top: 3%;
 		left: 0%;
 		max-width: 380px;
-	}	
+	}
 	.portfolio .info h2,.services h2,.pricing h2{
 		font-size: 25px;
 		line-height: 35px;
@@ -988,7 +988,7 @@ footer .social li a{
 	.title_portfolio{
 		padding: 20px 0;
 	}
-	
+
 }
 
 /* ---------------------------------------------------------------------- */
@@ -1009,7 +1009,7 @@ footer .social li a{
 	.is-sticky #logo{
 		padding-top: 10px;
 	}
-	footer h2{		
+	footer h2{
 		font-size: 22px;
 		line-height: 32px;
 	}
@@ -1033,5 +1033,20 @@ footer .social li a{
 	.get_mobile p {
 		margin-left: 0;
 	}
-	
+
+}
+
+.header-slider {
+	position: relative;
+	height: 600px;
+}
+
+.header-slider__carousel {
+	position: absolute;
+	z-index: 1;
+}
+
+.header-slider__info {
+	position: absolute;
+	z-index: 1000;
 }
