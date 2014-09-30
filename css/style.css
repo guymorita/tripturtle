@@ -1059,3 +1059,10 @@ footer .social li a{
 	color: white;
 	border-radius: 5px;
 }
+.header-slider__big-text {
+	font-size: 150px;
+	color: white;
+	display: inline-block;
+	text-shadow: 2px 2px #000;
+	margin-bottom: 100px;
+}
