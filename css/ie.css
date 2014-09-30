@@ -1,0 +1,21 @@
+.social li{
+	font-size: 18px;
+}
+.img_preview{
+	margin-left: 3%;
+}
+.portfolio .about_portfolio,.img_preview{
+	background: url(../img/bg.png);	
+}
+.is-sticky{
+	border: 1px solid #e7e8e9;
+}
+.get_mobile{
+	width: 100%;
+}
+.get_mobile .botton {
+	margin: 15px 0;
+	font-weight: 600;
+	padding: 10px 15px;
+	font-size: 14px;
+}

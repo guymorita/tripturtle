@@ -1,0 +1,19 @@
+/*Backgrounds Color*/
+.title,
+.carrousel,
+.title_portfolio,
+.flex-control-paging li a:hover,
+.flex-control-paging li a,
+.flex-control-paging li a.flex-active,
+.botton
+{
+	background-color: #E65069;
+}
+/*Color*/
+footer .social li a:hover,
+.social li a:hover,
+nav #menu li a:hover,
+#about:hover .text_widget i
+{
+	color: #e65069;
+}

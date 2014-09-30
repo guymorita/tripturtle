@@ -1,0 +1,48 @@
+
+/*About*/
+.ch-grid {
+	padding: 0;
+	list-style: none;
+	display: block;
+	width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+.ch-grid li {
+	width: 253px;
+	height: 253px;
+	display: inline-block;
+	margin: 0 20px;
+}
+.ch-grid li:first-child{
+	margin-left: 0;
+}
+.ch-grid{
+	margin: 0;
+}
+.ch-info .social{
+	padding: 0;
+}
+.ch-info .social li{
+	width: 10px;
+}
+.ch-info .social li a{	
+    color: #fff; 
+    font-size: 45px;
+}
+@media handheld, only screen and (max-width: 1024px) {
+	.ch-grid li {
+		width: 220px;
+		height: 220px;
+		margin: 5px;
+	}
+
+}
