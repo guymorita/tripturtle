@@ -1049,4 +1049,13 @@ footer .social li a{
 .header-slider__info {
 	position: absolute;
 	z-index: 1000;
+	margin-top: 300px;
+}
+
+.header-slider__text {
+	background-color: black;
+	opacity: 0.8;
+	padding: 16px;
+	color: white;
+	border-radius: 5px;
 }
