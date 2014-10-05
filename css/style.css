@@ -1060,9 +1060,10 @@ footer .social li a{
 	border-radius: 5px;
 }
 .header-slider__big-text {
-	font-size: 150px;
+	line-height: 150px;
+	font-size: 8.0vmin;
 	color: white;
 	display: inline-block;
 	text-shadow: 2px 2px #000;
-	margin-bottom: 100px;
+	margin-bottom: 1px;
 }
